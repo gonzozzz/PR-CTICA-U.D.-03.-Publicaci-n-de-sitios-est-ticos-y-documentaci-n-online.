@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentación del Proyecto</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4a90e2, #0077cc);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        nav {
+            background: #222;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #4a90e2;
+        }
+
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+
+        aside {
+            width: 25%;
+            background: white;
+            padding: 1rem;
+            border-radius: 10px;
+            margin-right: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        main {
+            width: 75%;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            border-left: 5px solid #4a90e2;
+            padding-left: 10px;
+        }
+
+        code {
+            background: #eee;
+            padding: 3px 6px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #222;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Documentación del Proyecto</h1>
+    <p>Guía completa para entender y usar la aplicación</p>
+</header>
+
+<nav>
+    <a href="#intro">Introducción</a>
+    <a href="#instalacion">Instalación</a>
+    <a href="#uso">Uso</a>
+    <a href="#api">API</a>
+</nav>
+
+<div class="container">
+
+    <aside>
+        <h3>📑 Contenido</h3>
+        <ul>
+            <li><a href="#intro">Introducción</a></li>
+            <li><a href="#instalacion">Instalación</a></li>
+            <li><a href="#uso">Uso</a></li>
+            <li><a href="#api">API</a></li>
+        </ul>
+    </aside>
+
+    <main>
+
+        <section id="intro">
+            <h2>Introducción</h2>
+            <p>Este proyecto es una aplicación diseñada para facilitar la gestión de tareas.</p>
+        </section>
+
+        <section id="instalacion">
+            <h2>Instalación</h2>
+            <p>Sigue estos pasos para instalar:</p>
+            <ol>
+                <li>Clona el repositorio</li>
+                <li>Abre el archivo <code>index.html</code></li>
+            </ol>
+        </section>
+
+        <section id="uso">
+            <h2>Uso</h2>
+            <p>Una vez abierto, podrás navegar por la documentación usando el menú superior.</p>
+        </section>
+
+        <section id="api">
+            <h2>API</h2>
+            <p>Ejemplo de endpoint:</p>
+            <code>GET /api/tareas</code>
+        </section>
+
+    </main>
+
+</div>
+
+<footer>
+    <p>© 2026 - Documentación del Proyecto</p>
+</footer>
+
+</body>
+</html>
